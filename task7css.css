@@ -1,0 +1,77 @@
+p {
+  margin-left: 20px;
+  margin-top: -1px;
+}
+textarea {
+  margin-left: 178px;
+  margin-top: -60px;
+  margin-bottom: 3px;
+  padding: 5px;
+  width: 160px;
+  height: 50px;
+}
+select {
+  background-color: lightgray;
+}
+label {
+  margin-left: 20px;
+}
+input[type="text"] {
+  margin-left: 100px;
+}
+input[type="email"] {
+  margin-left: 100px;
+}
+.form {
+  border: 2px solid;
+  margin-left: 500px;
+  margin-top: -541px;
+  margin-right: 490px;
+  height: 500px;
+  background-color: #75203f;
+}
+form {
+  margin-top: -490px;
+  margin-left: 550px;
+  font-weight: 700;
+  font-size: large;
+  color: wheat;
+}
+button {
+  width: 400px;
+  margin-left: 20px;
+  background-color: white;
+  border: white;
+  border-radius: 5px;
+  height: 40px;
+}
+.cb {
+  width: 13px; /* Adjust the size of the checkbox */
+  height: 13px; /* Adjust the size of the checkbox */
+  background-color: lightgoldenrodyellow;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid lightgray;
+  outline: none;
+  cursor: pointer;
+  appearance: none;
+}
+
+.cb:checked {
+  background-color: #a3a3a3;
+  border: 1px solid white;
+}
+.reg {
+  margin-top: 10px;
+  font-size: large;
+  color: #363135;
+  font-weight: bold;
+}
+.form1 {
+  border: 2px solid;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 90px;
+  height: 580px;
+  background-color: #a22b55;
+}
