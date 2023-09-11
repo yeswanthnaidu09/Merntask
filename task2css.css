@@ -1,0 +1,45 @@
+.v h1 {
+  font-weight: lighter;
+  color: blue;
+}
+.v tr:hover {
+  background-color: yellow;
+}
+
+.v table {
+  border-width: 2px;
+  border-style: outset;
+  border-color: black;
+  background-color: lightblue;
+}
+.v {
+  margin-top: -150px;
+  margin-left: 50px;
+}
+.v1 {
+  margin-top: 20px;
+  margin-bottom: -120px;
+}
+
+.h h1 {
+  font-weight: lighter;
+}
+.h table {
+  border-width: 2px;
+  border-style: outset;
+  border-color: black;
+  background-color: lightgray;
+}
+.h th:hover {
+  background-color: gray;
+}
+
+.h {
+  margin-top: -200px;
+  margin-left: 400px;
+}
+.h2 {
+  margin-left: 500px;
+  margin-top: 300px;
+  margin-bottom: -200px;
+}

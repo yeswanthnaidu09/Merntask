@@ -1,0 +1,47 @@
+.main {
+  margin-left: 150px;
+}
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: #04aa6d;
+  margin-left: -30px;
+  border-radius: 10px;
+}
+.box1:hover {
+  scale: 1.2;
+}
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(25, 25, 225);
+  margin-left: -30px;
+  border-radius: 10px;
+}
+.box2:hover {
+  scale: 1.2;
+}
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: orangered;
+  margin-left: -30px;
+  border-radius: 10px;
+}
+.box3:hover {
+  scale: 1.2;
+}
+.box4 {
+  width: 100px;
+  height: 100px;
+  background-color: burlywood;
+  margin-left: -30px;
+  border-radius: 10px;
+}
+.box4:hover {
+  scale: 1.2;
+}
+.main1 {
+  margin-top: -75px;
+}
+</style>

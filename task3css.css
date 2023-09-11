@@ -1,0 +1,30 @@
+table {
+  border-spacing: 0px;
+  border: 2px solid #f1f1f1;
+  font-family: Verdana, sans-serif;
+  width: 50%;
+  height: 50%;
+}
+
+th {
+  font-weight: lighter;
+  height: 40px;
+}
+tr:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+tr,
+th {
+  border: 0px solid black;
+  text-align: left;
+}
+tr:nth-child(1) {
+  background-color: rgba(4, 170, 107, 0.9);
+}
+.strict {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  height: 100vh;
+}

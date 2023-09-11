@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./task7css.css" />
+  </head>
+  <body>
+    <div class="style">
+      <div>
+        <div class="form1"></div>
+        <div class="form"></div>
+        <form>
+          <br />
+          <div class="b1">
+            <label>Name:</label>
+            <input id="name" type="text" required placeholder="your name" />
+          </div>
+          <br />
+          <div class="b1">
+            <label>Email:</label>
+            <input type="email" placeholder="your email" />
+          </div>
+          <br />
+          <div class="b1">
+            <label>Password:</label>
+            <input type="password" required style="margin-left: 72px" />
+          </div>
+          <br />
+          <div class="b1">
+            <label>Phone Number:</label>
+            <input type="number" style="margin-left: 29px" />
+          </div>
+          <br />
+          <div class="b1">
+            <label class="round"> Gender: </label>
+            &nbsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;Male:<input
+              class="cb"
+              type="checkbox"
+            />
+            Female:<input class="cb" type="checkbox" /> Others:<input
+              class="cb"
+              type="checkbox"
+            />
+          </div>
+          <br />
+          <div class="b1">
+            <label>Language&emsp;&emsp;&emsp;&emsp;&nbsp;</label>
+            <select style="font-size: 19.5px" name="Language" id="Language">
+              <option>Select Language</option>
+              <option>Telugu</option>
+              <option>English</option>
+              <option>Kannada</option>
+              <option>Hindi</option>
+              <option>Tamil</option>
+            </select>
+          </div>
+          <br />
+          <div class="b1">
+            <label>Zip Code:</label>
+            <input type="number" style="margin-left: 76.5px" />
+          </div>
+          <br />
+          <label><p>About:</p></label>
+          <textarea placeholder="Write about yourself..."></textarea>
+          <br />
+          <br />
+          <button type="submit" onclick="func()">
+            <p class="reg">Register</p>
+          </button>
+          <br />
+        </form>
+      </div>
+    </div>
+    <script>
+      const checkboxes = document.querySelectorAll(".cb");
+
+      checkboxes.forEach((checkbox) => {
+        checkbox.addEventListener("click", () => {
+          checkboxes.forEach((cb) => {
+            if (cb !== checkbox) {
+              cb.checked = false;
+            }
+          });
+        });
+      });
+    </script>
+
+    <script src="./task7.js"></script>
+  </body>
+</html>

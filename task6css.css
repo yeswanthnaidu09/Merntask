@@ -1,0 +1,114 @@
+<style>
+      button {
+        background-color: rgb(0, 160, 0);
+        border: 0px solid rgb(0, 160, 0);
+        color: white;
+        font-size: large;
+      }
+      .but span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+
+      .but span:after {
+        content: "\00bb";
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      .style{
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        height: 100vh;
+        display:flex;
+      }
+      .but:hover span {
+        padding-right: 25px;
+      }
+
+      .but:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+      h3 {
+        margin-block-end: 6px;
+      }
+      input {
+        margin-top: -100px;
+      }
+      input::placeholder {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700px;
+        font-size: larger;
+        opacity: 0.6;
+      }
+      .img {
+        /* margin-left: 600px;
+        margin-top: 50px; */
+        margin-left:10%;
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+      }
+      .main {
+        /* margin-left: 550px;
+        margin-top: 20px; */
+      }
+      .bb {
+        margin-left: 20px;
+        margin-top: -20px;
+      }
+      input[type="checkbox"] {
+        margin-left: 0.5px;
+      }
+      .bb2 {
+        background-color: white;
+        margin-left: 22px;
+        
+      }
+      element.style {
+        height: 20px;
+        width: 10px;
+      }
+      .button1 {
+        
+        border-radius: 6%;
+        background-color: orangered;
+        width: 0px;
+        margin-left: -25px;
+        padding-left: 8px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+      .xy {
+        margin-left: 290px;
+        margin-top: -18px;
+      }
+      .back {
+        height: 50px;
+        width: 410px;
+        background-color: rgb(225, 225, 225);
+      }
+      .f1 {
+        margin-top: -40px;
+      }
+      input[type="text"] {
+        font-size: 15px;
+        font-weight: 500px;
+        color: rgb(75, 75, 75);
+      }
+      input[type="password"] {
+        font-size: 15px;
+        font-weight: 500px;
+        color: rgb(75, 75, 75);
+      }
+      /* body {
+        background-color: bisque;
+      } */
+    </style>

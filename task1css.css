@@ -1,0 +1,22 @@
+center {
+  font-weight: 600;
+}
+th {
+  font-weight: 100;
+}
+.temp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+}
+th,
+tr,
+table {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+table {
+  background-color: lightblue;
+}
